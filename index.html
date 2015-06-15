@@ -17,9 +17,9 @@ title: Blog
 
 {% for category in site.categories %}
 {% if category[0] == 'other' %}
-<h2>杂记(</span>{{ category | last | size }}</span>)</h2>
+<h3>杂记(</span>{{ category | last | size }}</span>)</h3>
 {% else %}
-<h2>{{ category | first }}(</span>{{ category | last | size }}</span>)</h2>
+<h3>{{ category | first }}(</span>{{ category | last | size }}</span>)</h3>
 {% endif %}
 <ul class="arc-list">
     {% for post in category.last %}
