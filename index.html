@@ -3,18 +3,6 @@ layout: default
 title: Blog
 ---
 
-
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>技术</h3>
-<pre><code>$ Talk is cheap.
-</code></pre>
-{% for post in site.posts %}
-{{ post.date | date_to_string }} - <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> </br>
-{% endfor %}
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>杂谈</h3>
-
 {% for category in site.categories %}
 {% if category[0] == 'other' %}
 <h3>杂记(</span>{{ category | last | size }}</span>)</h3>
