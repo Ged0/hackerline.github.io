@@ -16,7 +16,7 @@ title: Blog
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>杂谈</h3>
 
 {% for category in site.categories %}
-<h2>{{ category | first }}</span>{{ category | last | size }}</span></h2>
+<h2>{{ category | first }}(</span>{{ category | last | size }}</span>)</h2>
 
 <ul class="arc-list">
     {% for post in category.last %}
