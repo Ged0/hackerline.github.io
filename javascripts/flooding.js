@@ -3,12 +3,18 @@
 * email£ºzh.hackerline@gmail.com
 */
 
+var talk = "";
 
 //document.getElementById('sms_chandiv').innerHTML = innerHTML + "<textarea id='area'></textarea>"
 
+function get_and_send(){
+	talk = document.getElementById('chart_content').value;
+	auto_sendmsg();
+}
+
 function auto_sendmsg(){
 //	 var str = document.getElementById('chart_content').value;
-	 document.getElementById('chart_content').value = document.getElementById('area').value;
+	 document.getElementById('chart_content').value = talk + Math.ceil(Math.random() * 25 + 1);
 	sendmsg();
 	setTimeout(auto_sendmsg(),send_interval_time*1000+100);
 	
