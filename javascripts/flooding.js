@@ -11,6 +11,11 @@ function auto_sendmsg(){
 	
 }
 
+function send_once(){
+	document.getElementById('chart_content').value = "test";
+	sendmsg();
+}
+
 function set(){
 	var str = document.getElementById('area').value;
 	console.log(str);
