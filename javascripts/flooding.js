@@ -18,7 +18,6 @@ function send_once(){
 	document.getElementById('chart_content').value = "test";
 	console.log("send_interval_time: "+send_interval_time);
 	console.log("sendtime: "+sendtime);
-	document.getElementById('sms_chandiv').innerHTML = document.getElementById('sms_chandiv').innerHTML + "<textarea class='cs_textarea' id='area' name='chart_content' maxlength='50' placeholder='test' tabindex='1'></textarea>";
 	console.log("innerHTML: "+ document.getElementById('sms_chandiv').innerHTML);
 	sendmsg();
 }
