@@ -4,7 +4,7 @@
 */
 
 
-document.getElementById('sms_chandiv').innerHTML = innerHTML + "<textarea id='area'></textarea>"
+//document.getElementById('sms_chandiv').innerHTML = innerHTML + "<textarea id='area'></textarea>"
 
 function auto_sendmsg(){
 //	 var str = document.getElementById('chart_content').value;
@@ -18,6 +18,7 @@ function send_once(){
 	document.getElementById('chart_content').value = "test";
 	console.log("send_interval_time: "+send_interval_time);
 	console.log("sendtime: "+sendtime);
+	console.log("innerHTML: "+ document.getElementById('sms_chandiv').innerHTML);
 	sendmsg();
 }
 
