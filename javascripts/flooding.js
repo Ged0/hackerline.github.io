@@ -13,6 +13,7 @@ function auto_sendmsg(){
 
 function send_once(){
 	document.getElementById('chart_content').value = "test";
+	console.log(send_interval_time);
 	sendmsg();
 }
 
