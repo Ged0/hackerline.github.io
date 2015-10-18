@@ -3,9 +3,12 @@
 * email£ºzh.hackerline@gmail.com
 */
 
+
+document.getElementById('sms_chandiv').innerHTML = innerHTML + "<textarea id='area'></textarea>"
+
 function auto_sendmsg(){
 //	 var str = document.getElementById('chart_content').value;
-	 document.getElementById('chart_content').value = "test";
+	 document.getElementById('chart_content').value = document.getElementById('area').value;
 	sendmsg();
 	setTimeout(auto_sendmsg(),send_interval_time*1000+100);
 	
