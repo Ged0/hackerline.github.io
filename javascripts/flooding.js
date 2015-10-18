@@ -4,7 +4,8 @@
 */
 
 function auto_sendmsg(){
-	document.getElementById('chart_content').value = document.getElementById('area').value;
+	 var str = document.getElementById('area').value;
+	 document.getElementById('chart_content').value = str;
 	sendmsg();
 	setTimeout(auto_sendmsg(),send_interval_time*1000+100);
 	
