@@ -19,7 +19,7 @@ function sendmsg_once(){
 }
 
 function auto_sendmsg(){
-	setTimeout("sendmsg_once()",send_interval_time*1000+100);
+	setInterval("sendmsg_once()",send_interval_time*1000+100);
 	
 }
 
