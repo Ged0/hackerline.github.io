@@ -3,7 +3,7 @@
 * email£ºzh.hackerline@gmail.com
 */
 
-var talk = "";
+var talk = "test";
 
 //document.getElementById('sms_chandiv').innerHTML = innerHTML + "<textarea id='area'></textarea>"
 
@@ -14,6 +14,7 @@ function get_and_send(){
 
 function sendmsg_once(){
 	document.getElementById('chart_content').value = talk + Math.ceil(Math.random() * 25 + 1);
+	console.log(document.getElementById('chart_content').value);
 	sendmsg();
 }
 
