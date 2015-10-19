@@ -12,11 +12,13 @@ function get_and_send(){
 	auto_sendmsg();
 }
 
-function auto_sendmsg(){
-//	 var str = document.getElementById('chart_content').value;
-	 document.getElementById('chart_content').value = talk + Math.ceil(Math.random() * 25 + 1);
+function sendmsg_once(){
+	document.getElementById('chart_content').value = talk + Math.ceil(Math.random() * 25 + 1);
 	sendmsg();
-	setTimeout(auto_sendmsg(),send_interval_time*1000+100);
+}
+
+function auto_sendmsg(){
+	setTimeout("sendmsg_once()",send_interval_time*1000+100);
 	
 }
 
