@@ -27,8 +27,8 @@ ApplicationContext : 通过继承MessageSource，ResourceLoader，ApplicationEve
 
 #####DefaultListableBeanFactory:
 
-Resource：配置文件源	
-XmlBeanDefinitionReader：读取配置文件 
+Resource: 配置文件源	
+XmlBeanDefinitionReader: 读取配置文件 
 
 example：
 
@@ -109,7 +109,7 @@ ClassPathResource  从classpath载入配置文件
 			}
 		}
 	}
-***3.BeanDefinition注册：将BeanDefinition对象注册到IoC容器的HashMap中***  
+***3.BeanDefinition注册: 将BeanDefinition对象注册到IoC容器的HashMap中***  
 根据PropertyValue来进行对应的注入。主要用到了Java反射原理。
 	
 **其他特性**：  

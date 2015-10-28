@@ -9,8 +9,8 @@ categories: [Java]
 
 ####Spring AOP组成：
 advice:通知  
-pointcut：切点  
-advisor：通知器，将advice和pointcut结合在一起
+pointcut:切点  
+advisor:通知器，将advice和pointcut结合在一起
 
 ####Spring AOP的实现方式：  
 1.JVM动态代理  
