@@ -5,9 +5,9 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  github: hackerline
   #bitbucket: philipj
-  hacker_news: swanson
+  hacker_news: hackerline
   #stackexchange: 348619
   #stackoverflow: 348619
   twitter: _swanson
@@ -19,9 +19,9 @@ social:
   #flickr: johndoe
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: Hui Zhao
+email: zh.hackerline@gmail.com
+tagline: "Write Java In The Day"
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-xxxx-x
