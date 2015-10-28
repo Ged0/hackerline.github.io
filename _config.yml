@@ -1,11 +1,5 @@
-encoding: UTF-8
-name: Hui Zhao
-markdown: redcarpet
-pygments: true
-github: https://www.github.com/Hackerline
-about: Write Java In The Day
-urls:
-    - text: github
-      url: https://github.com/Hackerline
-    - text: email
-      url: mailto:zh.hackerline@gmail.com
+# General Jekyll Config
+highlighter: pygments
+url: http://www.linezh.com
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
