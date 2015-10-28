@@ -3,16 +3,23 @@ layout: default
 title: Blog
 ---
 
-{% for category in site.categories %}
-{% if category[0] == 'other' %}
-<h3>杂记(</span>{{ category | last | size }}</span>)</h3>
-{% else %}
-<h3>{{ category | first }}(</span>{{ category | last | size }}</span>)</h3>
-{% endif %}
-<ul class="arc-list">
-    {% for post in category.last %}
-        <li>{{ post.date | date:"%d/%m/%Y"}} - <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-</ul>
-{% endfor %}
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for category in site.categories %}
+		{% if category[0] == 'other' %}
+			<h3>杂记(</span>{{ category | last | size }}</span>)</h3>
+		{% else %}
+			<h3>{{ category | first }}(</span>{{ category | last | size }}</span>)</h3>
+		{% endif %}
+		<ul class="arc-list">
+			{% for post in category.last %}
+				<li>{{ post.date | date:"%d/%m/%Y"}} - <a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+	{% endfor %}
+  </ul>
+</div>
+
+
 
