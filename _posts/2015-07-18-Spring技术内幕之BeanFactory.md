@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Spring技术内幕
+title: Spring技术内幕:BeanFactory/FactoryBean
 categories: [Java]
 ---
 ##{{ page.title }}
 
-用来记录学习Spring技术内幕的一些心得。一直更新。
 
 ### BeanFactory 和 FactoryBean
 BeanFactory，是Spring IoC的一个Bean工厂接口，用来实现一个Container的基本接口。ApplicationContext，XmlBeanFactory等都继承自这个接口。
