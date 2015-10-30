@@ -3,7 +3,6 @@ layout: post
 title: Spring技术内幕之IoC
 categories: [Java]
 ---
-##{{ page.title }}
 
 ###IoC:Inversion of Control 控制反转
 目前主要有两种：

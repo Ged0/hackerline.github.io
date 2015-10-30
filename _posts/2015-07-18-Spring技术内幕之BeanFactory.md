@@ -3,7 +3,6 @@ layout: post
 title: Spring技术内幕:BeanFactory/FactoryBean
 categories: [Java]
 ---
-##{{ page.title }}
 
 
 ### BeanFactory 和 FactoryBean
@@ -32,4 +31,3 @@ factory.getBean("AFactoryBean")返回的不是AFactoryBean，而是AFactory.getO
 （今天刚开始看到这两个东西后，实在无法理解FactoryBean的作用。看了文档和博客才发现，原来FactoryBean的存在就是为了解决Factory作为实例时的配置问题，让工厂模式在开发的时候配置起来更方便）
 
 
-{{ page.date|date_to_string }}

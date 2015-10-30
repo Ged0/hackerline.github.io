@@ -3,7 +3,6 @@ layout: post
 title: Spring技术内幕之AOP
 categories: [Java]
 ---
-##{{ page.title }}
 
 ###AOP:Aspect-Oriented-Programming  面向切面编程
 
