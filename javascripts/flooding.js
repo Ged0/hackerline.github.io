@@ -3,7 +3,7 @@
 * email£ºzh.hackerline@gmail.com
 */
 
-var talk = "test";
+var talk = "»á³¤!!!!!";
 
 //document.getElementById('sms_chandiv').innerHTML = innerHTML + "<textarea id='area'></textarea>"
 
